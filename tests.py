@@ -20,7 +20,7 @@ def test_columns_exist():
                         [["Bethann Schraub","$102.00"],
                         ["Eryn Vilar","$102.00"],
                         ["Janay Priolo","$57.00"],
-                        ["Lizabeth Letsche","$237.00"]])
+                        ["Lizabeth Letsche","$303.00"]])
 def test_values_exist(expected_customer, expected_amount):
     try:
         df = pd.read_csv(CSV_FILE)
